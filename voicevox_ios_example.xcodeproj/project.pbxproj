@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DDCC1882D83D0C70034D743 /* VoiceVoxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDCC1872D83D0C70034D743 /* VoiceVoxManager.swift */; };
+		9DDCC19F2D83E33F0034D743 /* open_jtalk_dic_utf_8-1.11 in Resources */ = {isa = PBXBuildFile; fileRef = 9DDCC19E2D83E33F0034D743 /* open_jtalk_dic_utf_8-1.11 */; };
+		9DDCC1A12D83EB670034D743 /* models in Resources */ = {isa = PBXBuildFile; fileRef = 9DDCC1A02D83EB670034D743 /* models */; };
+		9DDCC1B62D8438070034D743 /* voicevox_core.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDCC1B42D8437F80034D743 /* voicevox_core.xcframework */; };
+		9DDCC1B72D8438070034D743 /* voicevox_core.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDCC1B42D8437F80034D743 /* voicevox_core.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DDCC1B92D84380B0034D743 /* voicevox_onnxruntime.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDCC1B22D8437E50034D743 /* voicevox_onnxruntime.xcframework */; };
+		9DDCC1BA2D84380B0034D743 /* voicevox_onnxruntime.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDCC1B22D8437E50034D743 /* voicevox_onnxruntime.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DF3CF232D8271760068443B /* voicevox_ios_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF3CF222D8271760068443B /* voicevox_ios_exampleApp.swift */; };
+		9DF3CF252D8271760068443B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF3CF242D8271760068443B /* ContentView.swift */; };
+		9DF3CF272D8271790068443B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF3CF262D8271790068443B /* Assets.xcassets */; };
+		9DF3CF2A2D8271790068443B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF3CF292D8271790068443B /* Preview Assets.xcassets */; };
+		9DF3CF352D82717A0068443B /* voicevox_ios_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF3CF342D82717A0068443B /* voicevox_ios_exampleTests.swift */; };
+		9DF3CF3F2D82717A0068443B /* voicevox_ios_exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF3CF3E2D82717A0068443B /* voicevox_ios_exampleUITests.swift */; };
+		9DF3CF412D82717A0068443B /* voicevox_ios_exampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF3CF402D82717A0068443B /* voicevox_ios_exampleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DF3CF312D82717A0068443B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DF3CF172D8271760068443B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DF3CF1E2D8271760068443B;
+			remoteInfo = voicevox_ios_example;
+		};
+		9DF3CF3B2D82717A0068443B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DF3CF172D8271760068443B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DF3CF1E2D8271760068443B;
+			remoteInfo = voicevox_ios_example;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9DDCC1B82D8438070034D743 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9DDCC1BA2D84380B0034D743 /* voicevox_onnxruntime.xcframework in Embed Frameworks */,
+				9DDCC1B72D8438070034D743 /* voicevox_core.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9DDCC1872D83D0C70034D743 /* VoiceVoxManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceVoxManager.swift; sourceTree = "<group>"; };
+		9DDCC19E2D83E33F0034D743 /* open_jtalk_dic_utf_8-1.11 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "open_jtalk_dic_utf_8-1.11"; path = "../open_jtalk/open_jtalk_dic_utf_8-1.11"; sourceTree = "<group>"; };
+		9DDCC1A02D83EB670034D743 /* models */ = {isa = PBXFileReference; lastKnownFileType = folder; name = models; path = ../../voicevox_core/models; sourceTree = "<group>"; };
+		9DDCC1B22D8437E50034D743 /* voicevox_onnxruntime.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = voicevox_onnxruntime.xcframework; path = xcframeworks/voicevox_onnxruntime.xcframework; sourceTree = "<group>"; };
+		9DDCC1B42D8437F80034D743 /* voicevox_core.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = voicevox_core.xcframework; path = xcframeworks/voicevox_core.xcframework; sourceTree = "<group>"; };
+		9DF3CF1F2D8271760068443B /* voicevox_ios_example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voicevox_ios_example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF3CF222D8271760068443B /* voicevox_ios_exampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voicevox_ios_exampleApp.swift; sourceTree = "<group>"; };
+		9DF3CF242D8271760068443B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9DF3CF262D8271790068443B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DF3CF292D8271790068443B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DF3CF2B2D8271790068443B /* voicevox_ios_example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = voicevox_ios_example.entitlements; sourceTree = "<group>"; };
+		9DF3CF302D82717A0068443B /* voicevox_ios_exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voicevox_ios_exampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF3CF342D82717A0068443B /* voicevox_ios_exampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voicevox_ios_exampleTests.swift; sourceTree = "<group>"; };
+		9DF3CF3A2D82717A0068443B /* voicevox_ios_exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = voicevox_ios_exampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF3CF3E2D82717A0068443B /* voicevox_ios_exampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voicevox_ios_exampleUITests.swift; sourceTree = "<group>"; };
+		9DF3CF402D82717A0068443B /* voicevox_ios_exampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voicevox_ios_exampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9DF3CF4E2D8272550068443B /* voicevox_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = voicevox_core.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DF3CF1C2D8271760068443B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DDCC1B92D84380B0034D743 /* voicevox_onnxruntime.xcframework in Frameworks */,
+				9DDCC1B62D8438070034D743 /* voicevox_core.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF3CF2D2D82717A0068443B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF3CF372D82717A0068443B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DF3CF162D8271760068443B = {
+			isa = PBXGroup;
+			children = (
+				9DF3CF212D8271760068443B /* voicevox_ios_example */,
+				9DF3CF332D82717A0068443B /* voicevox_ios_exampleTests */,
+				9DF3CF3D2D82717A0068443B /* voicevox_ios_exampleUITests */,
+				9DF3CF202D8271760068443B /* Products */,
+				9DF3CF4D2D8272550068443B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DF3CF202D8271760068443B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DF3CF1F2D8271760068443B /* voicevox_ios_example.app */,
+				9DF3CF302D82717A0068443B /* voicevox_ios_exampleTests.xctest */,
+				9DF3CF3A2D82717A0068443B /* voicevox_ios_exampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DF3CF212D8271760068443B /* voicevox_ios_example */ = {
+			isa = PBXGroup;
+			children = (
+				9DDCC1A02D83EB670034D743 /* models */,
+				9DDCC19E2D83E33F0034D743 /* open_jtalk_dic_utf_8-1.11 */,
+				9DF3CF222D8271760068443B /* voicevox_ios_exampleApp.swift */,
+				9DF3CF242D8271760068443B /* ContentView.swift */,
+				9DF3CF262D8271790068443B /* Assets.xcassets */,
+				9DF3CF2B2D8271790068443B /* voicevox_ios_example.entitlements */,
+				9DF3CF282D8271790068443B /* Preview Content */,
+				9DDCC1872D83D0C70034D743 /* VoiceVoxManager.swift */,
+			);
+			path = voicevox_ios_example;
+			sourceTree = "<group>";
+		};
+		9DF3CF282D8271790068443B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9DF3CF292D8271790068443B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DF3CF332D82717A0068443B /* voicevox_ios_exampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DF3CF342D82717A0068443B /* voicevox_ios_exampleTests.swift */,
+			);
+			path = voicevox_ios_exampleTests;
+			sourceTree = "<group>";
+		};
+		9DF3CF3D2D82717A0068443B /* voicevox_ios_exampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DF3CF3E2D82717A0068443B /* voicevox_ios_exampleUITests.swift */,
+				9DF3CF402D82717A0068443B /* voicevox_ios_exampleUITestsLaunchTests.swift */,
+			);
+			path = voicevox_ios_exampleUITests;
+			sourceTree = "<group>";
+		};
+		9DF3CF4D2D8272550068443B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DDCC1B22D8437E50034D743 /* voicevox_onnxruntime.xcframework */,
+				9DDCC1B42D8437F80034D743 /* voicevox_core.xcframework */,
+				9DF3CF4F2D8272550068443B /* ios-arm64 */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DF3CF4F2D8272550068443B /* ios-arm64 */ = {
+			isa = PBXGroup;
+			children = (
+				9DF3CF4E2D8272550068443B /* voicevox_core.framework */,
+			);
+			name = "ios-arm64";
+			path = "voicevox_core.xcframework/ios-arm64";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DF3CF1E2D8271760068443B /* voicevox_ios_example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF3CF442D82717A0068443B /* Build configuration list for PBXNativeTarget "voicevox_ios_example" */;
+			buildPhases = (
+				9DF3CF1B2D8271760068443B /* Sources */,
+				9DF3CF1C2D8271760068443B /* Frameworks */,
+				9DF3CF1D2D8271760068443B /* Resources */,
+				9DDCC1B82D8438070034D743 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = voicevox_ios_example;
+			productName = voicevox_ios_example;
+			productReference = 9DF3CF1F2D8271760068443B /* voicevox_ios_example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DF3CF2F2D82717A0068443B /* voicevox_ios_exampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF3CF472D82717A0068443B /* Build configuration list for PBXNativeTarget "voicevox_ios_exampleTests" */;
+			buildPhases = (
+				9DF3CF2C2D82717A0068443B /* Sources */,
+				9DF3CF2D2D82717A0068443B /* Frameworks */,
+				9DF3CF2E2D82717A0068443B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DF3CF322D82717A0068443B /* PBXTargetDependency */,
+			);
+			name = voicevox_ios_exampleTests;
+			productName = voicevox_ios_exampleTests;
+			productReference = 9DF3CF302D82717A0068443B /* voicevox_ios_exampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DF3CF392D82717A0068443B /* voicevox_ios_exampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF3CF4A2D82717A0068443B /* Build configuration list for PBXNativeTarget "voicevox_ios_exampleUITests" */;
+			buildPhases = (
+				9DF3CF362D82717A0068443B /* Sources */,
+				9DF3CF372D82717A0068443B /* Frameworks */,
+				9DF3CF382D82717A0068443B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DF3CF3C2D82717A0068443B /* PBXTargetDependency */,
+			);
+			name = voicevox_ios_exampleUITests;
+			productName = voicevox_ios_exampleUITests;
+			productReference = 9DF3CF3A2D82717A0068443B /* voicevox_ios_exampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DF3CF172D8271760068443B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9DF3CF1E2D8271760068443B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					9DF3CF2F2D82717A0068443B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9DF3CF1E2D8271760068443B;
+					};
+					9DF3CF392D82717A0068443B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9DF3CF1E2D8271760068443B;
+					};
+				};
+			};
+			buildConfigurationList = 9DF3CF1A2D8271760068443B /* Build configuration list for PBXProject "voicevox_ios_example" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DF3CF162D8271760068443B;
+			productRefGroup = 9DF3CF202D8271760068443B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DF3CF1E2D8271760068443B /* voicevox_ios_example */,
+				9DF3CF2F2D82717A0068443B /* voicevox_ios_exampleTests */,
+				9DF3CF392D82717A0068443B /* voicevox_ios_exampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DF3CF1D2D8271760068443B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF3CF2A2D8271790068443B /* Preview Assets.xcassets in Resources */,
+				9DF3CF272D8271790068443B /* Assets.xcassets in Resources */,
+				9DDCC1A12D83EB670034D743 /* models in Resources */,
+				9DDCC19F2D83E33F0034D743 /* open_jtalk_dic_utf_8-1.11 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF3CF2E2D82717A0068443B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF3CF382D82717A0068443B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DF3CF1B2D8271760068443B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF3CF252D8271760068443B /* ContentView.swift in Sources */,
+				9DDCC1882D83D0C70034D743 /* VoiceVoxManager.swift in Sources */,
+				9DF3CF232D8271760068443B /* voicevox_ios_exampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF3CF2C2D82717A0068443B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF3CF352D82717A0068443B /* voicevox_ios_exampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF3CF362D82717A0068443B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF3CF412D82717A0068443B /* voicevox_ios_exampleUITestsLaunchTests.swift in Sources */,
+				9DF3CF3F2D82717A0068443B /* voicevox_ios_exampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DF3CF322D82717A0068443B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DF3CF1E2D8271760068443B /* voicevox_ios_example */;
+			targetProxy = 9DF3CF312D82717A0068443B /* PBXContainerItemProxy */;
+		};
+		9DF3CF3C2D82717A0068443B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DF3CF1E2D8271760068443B /* voicevox_ios_example */;
+			targetProxy = 9DF3CF3B2D82717A0068443B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9DF3CF422D82717A0068443B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DF3CF432D82717A0068443B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9DF3CF452D82717A0068443B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = voicevox_ios_example/voicevox_ios_example.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"voicevox_ios_example/Preview Content\"";
+				DEVELOPMENT_TEAM = X747U9QDK2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks\n@loader_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kiyokato.voicevox-ios-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9DF3CF462D82717A0068443B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = voicevox_ios_example/voicevox_ios_example.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"voicevox_ios_example/Preview Content\"";
+				DEVELOPMENT_TEAM = X747U9QDK2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks\n@loader_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kiyokato.voicevox-ios-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9DF3CF482D82717A0068443B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X747U9QDK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kiyokato.voicevox-ios-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/voicevox_ios_example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/voicevox_ios_example";
+			};
+			name = Debug;
+		};
+		9DF3CF492D82717A0068443B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X747U9QDK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kiyokato.voicevox-ios-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/voicevox_ios_example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/voicevox_ios_example";
+			};
+			name = Release;
+		};
+		9DF3CF4B2D82717A0068443B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X747U9QDK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kiyokato.voicevox-ios-exampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = voicevox_ios_example;
+			};
+			name = Debug;
+		};
+		9DF3CF4C2D82717A0068443B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X747U9QDK2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kiyokato.voicevox-ios-exampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = voicevox_ios_example;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DF3CF1A2D8271760068443B /* Build configuration list for PBXProject "voicevox_ios_example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF3CF422D82717A0068443B /* Debug */,
+				9DF3CF432D82717A0068443B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DF3CF442D82717A0068443B /* Build configuration list for PBXNativeTarget "voicevox_ios_example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF3CF452D82717A0068443B /* Debug */,
+				9DF3CF462D82717A0068443B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DF3CF472D82717A0068443B /* Build configuration list for PBXNativeTarget "voicevox_ios_exampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF3CF482D82717A0068443B /* Debug */,
+				9DF3CF492D82717A0068443B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DF3CF4A2D82717A0068443B /* Build configuration list for PBXNativeTarget "voicevox_ios_exampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DF3CF4B2D82717A0068443B /* Debug */,
+				9DF3CF4C2D82717A0068443B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DF3CF172D8271760068443B /* Project object */;
+}
